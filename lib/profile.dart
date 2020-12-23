@@ -41,7 +41,7 @@ class MyProfile extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Center(
                       child: Text(
-                        "นายเกรียงศักดิ์ อัครบุตร",
+                        "นายเกรียงศักดิ์ อัครบุตร""กฤติพงษ์ มงคล""ศศิภา พุฒพา",
                         style: bulletStyle,
                       ),
                     ),
@@ -50,7 +50,7 @@ class MyProfile extends StatelessWidget {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(200.0),
                     child: Image.network(
-                      'https://www.facebook.com/photo/?fbid=2794725073905777&set=picfp.100001049355734''https://www.facebook.com/photo?fbid=3133550906739765&set=a.125968870831332''https://www.facebook.com/photo/?fbid=2769756469976885&set=picfp.100008276764051',
+                      'https://www.facebook.com/photo/?fbid=2794725073905777&set=picfp.100001049355734',
                       height: 180.0,
                     ),
                   ),
