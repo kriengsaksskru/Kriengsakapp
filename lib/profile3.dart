@@ -41,7 +41,7 @@ class MyProfile3 extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Center(
                       child: Text(
-                        "งานอดิเรกของ อัมพร",
+                        "งานอดิเรกของ เกรียงศักดิ์",
                         style: bulletStyle,
                       ),
                     ),
@@ -49,8 +49,8 @@ class MyProfile3 extends StatelessWidget {
                   SizedBox(height: sizeBox),
                   ClipRRect(
                     borderRadius: BorderRadius.circular(50.0),
-                    child: Image.asset(
-                      'assets/images/profile.jpg',
+                    child: Image.network(
+                      'https://www.facebook.com/photo/?fbid=2794725073905777&set=picfp.100001049355734',
                       height: 180.0,
                     ),
                   ),
@@ -58,7 +58,7 @@ class MyProfile3 extends StatelessWidget {
                   ListTile(
                     title: Align(
                       child: new Text(
-                        'เวลาว่าง ชอบทำอาหาร เขียนโปรแกรม เล่นอูคูเลเล่ ร้องเพลง อ่านหนังสือ ติวข้อสอบให้เพื่อน',
+                        'เวลาว่าง ชอบทำอาหาร เล่นเกม เล่นอูคูเลเล่ ร้องเพลง อ่านหนังสือ ฝึกภาษา',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1, 0),
@@ -68,7 +68,7 @@ class MyProfile3 extends StatelessWidget {
                     alignment: Alignment.centerLeft,
                     child: Center(
                       child: Text(
-                        "งานอดิเรกของ นิพิฐพนธ์",
+                        "งานอดิเรกของ กฤติพงษ์",
                         style: bulletStyle,
                       ),
                     ),
@@ -76,8 +76,8 @@ class MyProfile3 extends StatelessWidget {
                   SizedBox(height: sizeBox),
                   ClipRRect(
                     borderRadius: BorderRadius.circular(50.0),
-                    child: Image.asset(
-                      'assets/images/tl.jpg',
+                    child: Image.network(
+                      'https://www.facebook.com/photo?fbid=3133550906739765&set=a.125968870831332',
                       height: 180.0,
                     ),
                   ),
@@ -85,7 +85,34 @@ class MyProfile3 extends StatelessWidget {
                   ListTile(
                     title: Align(
                       child: new Text(
-                        'เวลาว่าง ดูหนัง ดูการ์ตูน อ่านหนังสือ ทำเพลง',
+                        'เวลาว่าง เล่นเฟส เล่นเกม ฟังเพลง ร้องเพลง',
+                        style: contentStyle,
+                      ),
+                      alignment: Alignment(-1, 0),
+                    ),
+                  ),
+                    Align(
+                    alignment: Alignment.centerLeft,
+                    child: Center(
+                      child: Text(
+                        "งานอดิเรกของ ศศิภา",
+                        style: bulletStyle,
+                      ),
+                    ),
+                  ),
+                  SizedBox(height: sizeBox),
+                  ClipRRect(
+                    borderRadius: BorderRadius.circular(50.0),
+                    child: Image.network(
+                      'https://www.facebook.com/photo/?fbid=2769756469976885&set=picfp.100008276764051',
+                      height: 180.0,
+                    ),
+                  ),
+                  SizedBox(height: sizeBox),
+                  ListTile(
+                    title: Align(
+                      child: new Text(
+                        'เวลาว่าง เล่นบอล ตีแบต  เล่นเกม  ฟังเพลง',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1, 0),

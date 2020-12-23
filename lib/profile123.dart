@@ -46,7 +46,7 @@ class _MyProfile1State extends State<MyProfile1> {
                     alignment: Alignment.centerLeft,
                     child: Center(
                       child: Text(
-                        "GELLERY BY Tonsskru",
+                        "GELLERY BY Tonsskru,ViewKrittipong,Shasipha",
                         style: bulletStyle,
                       ),
                     ),
